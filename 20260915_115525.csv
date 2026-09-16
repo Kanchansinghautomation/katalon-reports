@@ -1,0 +1,214 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginandForgotpassword_Modules,Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:56:55,1m - 17.262s,PASSED
+,,,,,,,
+Start listener action : beforeSuite,Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:55:38,0.179s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102,Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:55:42,3.913s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:55:38,0.019s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:55:38,0.012s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:55:38,15-09-2026 11:55:40,1.631s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:55:40,15-09-2026 11:55:40,0.052s,PASSED
+"navigateToUrl(""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"")",Chrome 152.0.7977.84,,,15-09-2026 11:55:40,15-09-2026 11:55:42,1.604s,PASSED
+versionObj = new com.kms.katalon.core.testobject.TestObject(),Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.006s,PASSED
+"versionObj.addProperty(""xpath"", EQUALS, ""//p[contains(.,'Version')]"")",Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.008s,PASSED
+ActualApplicationversion = getText(versionObj),Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.285s,PASSED
+"logInfo("" Actual Application version number : "" + ActualApplicationversion)",Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.001s,PASSED
+"expectedVersion = ""6.3.0""",Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.000s,PASSED
+"logInfo(""Expected Application version number  : "" + expectedVersion)",Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.001s,PASSED
+if (ActualApplicationversion.contains(expectedVersion)),Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.008s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.012s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.171s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103,Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:47,4.721s,PASSED
+"DATA BINDING - {""Captcha"":""i6Lvk6"",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""userid"":""TestAutoAdm"",""Password"":""""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:42,0.003s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:55:42,15-09-2026 11:55:43,0.752s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:55:43,15-09-2026 11:55:43,0.050s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:55:43,15-09-2026 11:55:45,1.726s,PASSED
+"setText(findTestObject(""invalidloginrepository/Page_Agent Management System/input_Enter User Name""), userid)",Chrome 152.0.7977.84,,,15-09-2026 11:55:45,15-09-2026 11:55:45,0.662s,PASSED
+"setEncryptedText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Password""), Password)",Chrome 152.0.7977.84,,,15-09-2026 11:55:45,15-09-2026 11:55:46,0.327s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Captcha""), Captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:55:46,15-09-2026 11:55:46,0.587s,PASSED
+"click(findTestObject(""invalidloginrepository/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:46,15-09-2026 11:55:47,0.305s,PASSED
+waitForAlert(5),Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.021s,PASSED
+alertMessage = getAlertText(),Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.014s,PASSED
+"comment(""Alert Message: "" + alertMessage)",Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.017s,PASSED
+"if (alertMessage.equalsIgnoreCase(""Please enter password""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.007s,PASSED
+acceptAlert(),Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.020s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.164s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104,Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:53,5.693s,PASSED
+"DATA BINDING - {""password"":""P11S1FO2cCA\u003d"",""captcha"":""i6Lvk7"",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""userid"":""TestAutoAdm""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:47,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:55:47,15-09-2026 11:55:48,0.701s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:55:48,15-09-2026 11:55:48,0.030s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:55:48,15-09-2026 11:55:49,1.672s,PASSED
+"setText(findTestObject(""validuserandInvalidpassword/Page_Agent Management System/input_Enter User Name""), userid)",Chrome 152.0.7977.84,,,15-09-2026 11:55:49,15-09-2026 11:55:50,0.558s,PASSED
+"setEncryptedText(findTestObject(""validuserandInvalidpassword/Page_Agent Management System/input_Enter Password""), password)",Chrome 152.0.7977.84,,,15-09-2026 11:55:50,15-09-2026 11:55:50,0.314s,PASSED
+"setText(findTestObject(""validuserandInvalidpassword/Page_Agent Management System/input_Enter Captcha""), captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:55:50,15-09-2026 11:55:51,0.546s,PASSED
+"click(findTestObject(""validuserandInvalidpassword/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:51,15-09-2026 11:55:52,0.776s,PASSED
+"waitForElementVisible(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""), 20)",Chrome 152.0.7977.84,,,15-09-2026 11:55:52,15-09-2026 11:55:52,0.683s,PASSED
+"message = getText(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:52,15-09-2026 11:55:52,0.240s,PASSED
+"comment(""Validation Message: "" + message)",Chrome 152.0.7977.84,,,15-09-2026 11:55:52,15-09-2026 11:55:52,0.001s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:55:52,15-09-2026 11:55:53,0.126s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.001s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105,Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:58,5.554s,PASSED
+"DATA BINDING - {""password"":""E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d"",""captcha"":""i6Lvk8"",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""userid"":""Testing""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.002s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.683s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:53,0.038s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:55:53,15-09-2026 11:55:55,1.672s,PASSED
+"setText(findTestObject(""invaliduseridandvalidpassword/Page_Agent Management System/input_Enter User Name""), userid)",Chrome 152.0.7977.84,,,15-09-2026 11:55:55,15-09-2026 11:55:56,0.566s,PASSED
+"setEncryptedText(findTestObject(""invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Password""), password)",Chrome 152.0.7977.84,,,15-09-2026 11:55:56,15-09-2026 11:55:56,0.296s,PASSED
+"setText(findTestObject(""invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Captcha""), captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:55:56,15-09-2026 11:55:56,0.555s,PASSED
+"click(findTestObject(""invaliduseridandvalidpassword/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:56,15-09-2026 11:55:57,0.758s,PASSED
+"waitForElementVisible(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""), 5)",Chrome 152.0.7977.84,,,15-09-2026 11:55:57,15-09-2026 11:55:58,0.556s,PASSED
+"message = getText(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""))",Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.239s,PASSED
+"comment(""Validation Message: "" + message)",Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.002s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.143s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.001s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107,Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:56:04,6.104s,PASSED
+"DATA BINDING - {""Captcha"":""i6Lvk10"",""(Default) Useri..."":"""",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""(Default) Passw..."":""""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:58,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:55:58,15-09-2026 11:55:59,0.714s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:55:59,15-09-2026 11:55:59,0.037s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:55:59,15-09-2026 11:56:01,1.762s,PASSED
+"clearText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter User Name""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:01,15-09-2026 11:56:01,0.270s,PASSED
+"clearText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Password""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:01,15-09-2026 11:56:01,0.235s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Captcha""), Captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:56:01,15-09-2026 11:56:02,0.558s,PASSED
+delay(2),Chrome 152.0.7977.84,,,15-09-2026 11:56:02,15-09-2026 11:56:04,2.008s,PASSED
+"click(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.303s,PASSED
+"expectedAlert = ""Please enter UserName""",Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.001s,PASSED
+alertMessage = getAlertText(),Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.013s,PASSED
+"logInfo(""Alert Message: "" + alertMessage)",Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.001s,PASSED
+if (alertMessage.equalsIgnoreCase(expectedAlert)),Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.002s,PASSED
+acceptAlert(),Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.010s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.150s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.001s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108,Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:15,10.759s,PASSED
+"DATA BINDING - {""Captcha"":""i6Lvk11"",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""userid"":""Kdd@#ff"",""Password"":""E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.000s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:04,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:56:04,15-09-2026 11:56:05,0.701s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:56:05,15-09-2026 11:56:05,0.031s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:56:05,15-09-2026 11:56:07,1.720s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter User Name""), userid)",Chrome 152.0.7977.84,,,15-09-2026 11:56:07,15-09-2026 11:56:07,0.568s,PASSED
+"setEncryptedText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Password""), Password)",Chrome 152.0.7977.84,,,15-09-2026 11:56:07,15-09-2026 11:56:08,0.293s,PASSED
+delay(5),Chrome 152.0.7977.84,,,15-09-2026 11:56:08,15-09-2026 11:56:13,5.010s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Captcha""), Captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:56:13,15-09-2026 11:56:13,0.535s,PASSED
+"click(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:13,15-09-2026 11:56:14,0.313s,PASSED
+"waitForElementVisible(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""), 5)",Chrome 152.0.7977.84,,,15-09-2026 11:56:14,15-09-2026 11:56:15,1.147s,PASSED
+"message = getText(findTestObject(""invalidloginrepository/Page_Agent Management System/p_lblMessage""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.240s,PASSED
+"comment(""Validation Message: "" + message)",Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.001s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.157s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.000s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202,Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:20,4.470s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:15,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:56:15,15-09-2026 11:56:16,0.700s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:56:16,15-09-2026 11:56:16,0.041s,PASSED
+"navigateToUrl(""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:16,15-09-2026 11:56:17,0.998s,PASSED
+"click(findTestObject(""Forgotpasswordwithoutregisteredmono/Page_Agent Management System/a_Forgot Password _""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:17,15-09-2026 11:56:17,0.527s,PASSED
+"setText(findTestObject(""Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_Enter Mobile Number""), ""9689997879"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:17,15-09-2026 11:56:18,0.764s,PASSED
+"click(findTestObject(""Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_SendOTPBtn""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:18,15-09-2026 11:56:18,0.343s,PASSED
+"waitForElementVisible(findTestObject(""Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo""), 5)",Chrome 152.0.7977.84,,,15-09-2026 11:56:18,15-09-2026 11:56:19,0.666s,PASSED
+"message = getText(findTestObject(""Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:19,15-09-2026 11:56:19,0.249s,PASSED
+"comment(""Validation Message: "" + message)",Chrome 152.0.7977.84,,,15-09-2026 11:56:19,15-09-2026 11:56:19,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:19,15-09-2026 11:56:19,0.002s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:19,15-09-2026 11:56:20,0.151s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201,Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:32,12.705s,PASSED
+"DATA BINDING - {""MobileNo"":""7570877202"",""Confirmpassword"":""Kanchan@#$1234"",""Newpassword"":""Kanchan@#$1234""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:20,0.001s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:20,0.002s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:20,0.677s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:20,0.039s,PASSED
+"navigateToUrl(""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:20,15-09-2026 11:56:22,1.784s,PASSED
+"click(findTestObject(""Forgot_Password_repository/Page_Agent Management System/a_Forgot Password _""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:22,15-09-2026 11:56:23,0.507s,PASSED
+"mobileField = findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:23,15-09-2026 11:56:23,0.002s,PASSED
+"waitForElementVisible(mobileField, 10)",Chrome 152.0.7977.84,,,15-09-2026 11:56:23,15-09-2026 11:56:23,0.456s,PASSED
+mobile = String.valueOf(MobileNo),Chrome 152.0.7977.84,,,15-09-2026 11:56:23,15-09-2026 11:56:23,0.000s,PASSED
+"setText(mobileField, mobile)",Chrome 152.0.7977.84,,,15-09-2026 11:56:23,15-09-2026 11:56:24,0.541s,PASSED
+"otpBtn = findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:24,15-09-2026 11:56:24,0.001s,PASSED
+"waitForElementClickable(otpBtn, 10)",Chrome 152.0.7977.84,,,15-09-2026 11:56:24,15-09-2026 11:56:24,0.319s,PASSED
+click(otpBtn),Chrome 152.0.7977.84,,,15-09-2026 11:56:24,15-09-2026 11:56:24,0.277s,PASSED
+connection = dbconnection.Dbdetails.connectDB(),Chrome 152.0.7977.84,,,15-09-2026 11:56:24,15-09-2026 11:56:25,0.769s,PASSED
+"query = ""select Top 1  otp , * from AgentOTPDetails order by OtpGenerationDate desc""",Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.001s,PASSED
+"Otp = """"",Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.001s,PASSED
+stmt = connection.createStatement(),Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.032s,PASSED
+rs = stmt.executeQuery(query),Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.141s,PASSED
+if (rs.next()),Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.023s,PASSED
+"logInfo(""Fetched OTP from DB : "" + Otp)",Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.002s,PASSED
+if (Otp == null || Otp.isEmpty()),Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.000s,PASSED
+otpArray = Otp.toCharArray(),Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.000s,PASSED
+"otpObjects = [""Forgot_Password_repository/Page_Agent Management System/input_OtpBox1"", ""Forgot_Password_repository/Page_Agent Management System/input_OtpBox2"", ""Forgot_Password_repository/Page_Agent Management System/input_OtpBox3"", ""Forgot_Password_repository/Page_Agent Management System/input_OtpBox4""]",Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:25,0.000s,PASSED
+"for ([i = 0, i < otpObjects.size(), (i++)])",Chrome 152.0.7977.84,,,15-09-2026 11:56:25,15-09-2026 11:56:29,3.457s,PASSED
+"click(findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_OTPValidateBtn""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:29,15-09-2026 11:56:29,0.295s,PASSED
+"setText(findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_Enter New Password""), Newpassword)",Chrome 152.0.7977.84,,,15-09-2026 11:56:29,15-09-2026 11:56:30,1.212s,PASSED
+"setText(findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_Confirm New Password""), Confirmpassword)",Chrome 152.0.7977.84,,,15-09-2026 11:56:30,15-09-2026 11:56:31,0.532s,PASSED
+"click(findTestObject(""Forgot_Password_repository/Page_Agent Management System/input_ChangePwBtn""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:31,15-09-2026 11:56:31,0.279s,PASSED
+msgObj = new com.kms.katalon.core.testobject.TestObject(),Chrome 152.0.7977.84,,,15-09-2026 11:56:31,15-09-2026 11:56:31,0.001s,PASSED
+"msgObj.addProperty(""xpath"", EQUALS, ""//*[contains(.,'Password has been changed')]"")",Chrome 152.0.7977.84,,,15-09-2026 11:56:31,15-09-2026 11:56:31,0.000s,PASSED
+"waitForElementVisible(msgObj, 10)",Chrome 152.0.7977.84,,,15-09-2026 11:56:31,15-09-2026 11:56:32,0.874s,PASSED
+message = getText(msgObj),Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.240s,PASSED
+"logInfo(""Validation Message : "" + message)",Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.001s,PASSED
+"if (message.contains(""Password has been changed""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.001s,PASSED
+connection.close(),Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.002s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.004s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.140s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106,Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:37,4.267s,PASSED
+"DATA BINDING - {""Captcha"":""i6Lvk9"",""(Default) Useri..."":"""",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""Password"":""E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.002s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:32,0.002s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:56:32,15-09-2026 11:56:33,0.668s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:56:33,15-09-2026 11:56:33,0.036s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:56:33,15-09-2026 11:56:35,1.705s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter User Name""), """")",Chrome 152.0.7977.84,,,15-09-2026 11:56:35,15-09-2026 11:56:35,0.539s,PASSED
+"setEncryptedText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Password""), Password)",Chrome 152.0.7977.84,,,15-09-2026 11:56:35,15-09-2026 11:56:36,0.286s,PASSED
+"setText(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_Enter Captcha""), Captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.557s,PASSED
+"click(findTestObject(""Agentstatusrepository/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.292s,PASSED
+"expectedAlert = ""Please enter UserName""",Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.001s,PASSED
+alertMessage = getAlertText(),Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.019s,PASSED
+"logInfo(""Alert Message: "" + alertMessage)",Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.000s,PASSED
+if (alertMessage.equalsIgnoreCase(expectedAlert)),Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:36,0.001s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:56:36,15-09-2026 11:56:37,0.116s,PASSED
+if (alertMessage.equalsIgnoreCase(expectedAlert)),Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.001s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.002s,PASSED
+,,,,,,,
+Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101,Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:55,18.461s,PASSED
+"DATA BINDING - {""password"":""ACByQccM9z1v23aWcZKDBQ\u003d\u003d"",""captcha"":""3GkgFr"",""appUrl"":""https://sahibnkmitraqc.banksekure.com/EKYCWeb/"",""userid"":""TestAutoAdm""}",,,,,,,
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.000s,PASSED
+Start listener action : beforeTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.001s,PASSED
+"openBrowser("""")",Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.680s,PASSED
+maximizeWindow(),Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:37,0.037s,PASSED
+navigateToUrl(appUrl),Chrome 152.0.7977.84,,,15-09-2026 11:56:37,15-09-2026 11:56:39,1.811s,PASSED
+"messageprint = """"",Chrome 152.0.7977.84,,,15-09-2026 11:56:39,15-09-2026 11:56:39,0.000s,PASSED
+"setText(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/input_Enter User Name""), userid)",Chrome 152.0.7977.84,,,15-09-2026 11:56:39,15-09-2026 11:56:40,0.537s,PASSED
+"setEncryptedText(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/input_Enter Password""), password)",Chrome 152.0.7977.84,,,15-09-2026 11:56:40,15-09-2026 11:56:40,0.293s,PASSED
+"setText(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/input_Enter Captcha""), captcha)",Chrome 152.0.7977.84,,,15-09-2026 11:56:40,15-09-2026 11:56:40,0.556s,PASSED
+"click(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/input_submit""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:40,15-09-2026 11:56:43,2.271s,PASSED
+"waitForElementVisible(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System""), 10)",Chrome 152.0.7977.84,,,15-09-2026 11:56:43,15-09-2026 11:56:43,0.441s,PASSED
+"messageprint = getText(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:43,15-09-2026 11:56:43,0.241s,PASSED
+delay(10),Chrome 152.0.7977.84,,,15-09-2026 11:56:43,15-09-2026 11:56:53,10.009s,PASSED
+"logInfo(""Validation Message: "" + messageprint)",Chrome 152.0.7977.84,,,15-09-2026 11:56:53,15-09-2026 11:56:53,0.000s,PASSED
+"if (messageprint.contains(""Agent Management System"") || messageprint.contains(""Management System""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:53,15-09-2026 11:56:53,0.001s,PASSED
+"click(findTestObject(""SahiBnkmitrarepository/Page_Agent Management System/span_Logout""))",Chrome 152.0.7977.84,,,15-09-2026 11:56:53,15-09-2026 11:56:55,1.390s,PASSED
+closeBrowser(),Chrome 152.0.7977.84,,,15-09-2026 11:56:55,15-09-2026 11:56:55,0.155s,PASSED
+Start listener action : afterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:55,15-09-2026 11:56:55,0.001s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 152.0.7977.84,,,15-09-2026 11:56:55,15-09-2026 11:56:55,0.000s,PASSED
+,,,,,,,
+Start listener action : afterSuite,Chrome 152.0.7977.84,,,15-09-2026 11:56:55,15-09-2026 11:56:55,0.175s,PASSED

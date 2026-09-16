@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginandForgotpassword_Modules" time="77.066" tests="10" passed="10" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="LoginandForgotpassword_Modules" tests="10" passed="10" failures="0" errors="0" incompleted="0" skipped="0" time="77.066" timestamp="2026-09-15T06:25:38.440Z" hostname="kanchan.kumari - MBSDEVNDA64756T.mplgroup.com" id="Test Suites/LoginandForgotpassword_Modules" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="F:\\SahiBnk Mitra DSB\\Reports\\20260915_115525\\LoginandForgotpassword_Modules\\20260915_115525"/>
+         <property name="logFiles" value="F:\\SahiBnk Mitra DSB\\Reports\\20260915_115525\\LoginandForgotpassword_Modules\\20260915_115525\\console0.log, F:\\SahiBnk Mitra DSB\\Reports\\20260915_115525\\LoginandForgotpassword_Modules\\20260915_115525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;https://sahibnkmitraqc.banksekure.com/EKYCWeb/&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;appUrl&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;TestAutoAdm&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;userid&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;ACByQccM9z1v23aWcZKDBQ\u003d\u003d&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;password&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;3GkgFr&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;captcha&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="kanchan.kumari - MBSDEVNDA64756T.mplgroup.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.3.0.0"/>
+         <property name="browser" value="Chrome 152.0.7977.84"/>
+         <property name="userFullName" value="KANCHAN SINGH"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="cc83e0e86c557cf643f20b5a1bca1c14"/>
+         <property name="projectName" value="SahiBnk Mitra DSB"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102" time="3.913" classname="Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102" status="PASSED">
+         <system-out><![CDATA[15-09-2026T11:55:38 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102: Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:38 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:55:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:55:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:55:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:55:40 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:55:40 - [TEST_STEP][PASSED] - navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/"): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:42 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - versionObj = new com.kms.katalon.core.testobject.TestObject(): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - versionObj.addProperty("xpath", EQUALS, "//p[contains(.,'Version')]"): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - ActualApplicationversion = getText(versionObj): Text of object '' is: '© 2026 Manipal Group.Version 6.3.0 Design by Manipal Technologies Ltd.'
+
+15-09-2026T11:55:42 - [MESSAGE][PASSED] - Text of object '' is: '© 2026 Manipal Group.Version 6.3.0 Design by Manipal Technologies Ltd.'
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - logInfo(" Actual Application version number : " + ActualApplicationversion):  Actual Application version number : © 2026 Manipal Group.Version 6.3.0 Design by Manipal Technologies Ltd.
+
+15-09-2026T11:55:42 - [MESSAGE][INFO] -  Actual Application version number : © 2026 Manipal Group.Version 6.3.0 Design by Manipal Technologies Ltd.
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - expectedVersion = "6.3.0": null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - logInfo("Expected Application version number  : " + expectedVersion): Expected Application version number  : 6.3.0
+
+15-09-2026T11:55:42 - [MESSAGE][INFO] - Expected Application version number  : 6.3.0
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - if (ActualApplicationversion.contains(expectedVersion)): Version Verification PASSED
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - markPassed("Version Verification PASSED"): Version Verification PASSED
+
+15-09-2026T11:55:42 - [MESSAGE][PASSED] - Version Verification PASSED
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103" time="4.721" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Captcha":"i6Lvk6","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","userid":"TestAutoAdm","Password":""}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:55:42 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103: Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:42 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:55:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:55:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:55:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:55:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:55:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:55:43 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:55:43 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:45 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:45 - [TEST_STEP][PASSED] - setText(findTestObject("invalidloginrepository/Page_Agent Management System/input_Enter User Name"), userid): Text 'TestAutoAdm' is set on object 'Object Repository/invalidloginrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:45 - [MESSAGE][PASSED] - Text 'TestAutoAdm' is set on object 'Object Repository/invalidloginrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password): Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:46 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha): Text 'i6Lvk6' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:46 - [MESSAGE][PASSED] - Text 'i6Lvk6' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:46 - [TEST_STEP][PASSED] - click(findTestObject("invalidloginrepository/Page_Agent Management System/input_submit")): Object: 'Object Repository/invalidloginrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/invalidloginrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - waitForAlert(5): Alert is present after 5 second(s).
+
+15-09-2026T11:55:47 - [MESSAGE][PASSED] - Alert is present after 5 second(s).
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - alertMessage = getAlertText(): Get alert text successfully: 'Please enter Password'
+
+15-09-2026T11:55:47 - [MESSAGE][PASSED] - Get alert text successfully: 'Please enter Password'
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - comment("Alert Message: " + alertMessage): Alert Message: Please enter Password
+
+15-09-2026T11:55:47 - [MESSAGE][INFO] - Alert Message: Please enter Password
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - if (alertMessage.equalsIgnoreCase("Please enter password")): Validation Passed
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - comment("Validation Passed"): Validation Passed
+
+15-09-2026T11:55:47 - [MESSAGE][INFO] - Validation Passed
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+15-09-2026T11:55:47 - [MESSAGE][PASSED] - Alert accepted
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104" time="5.693" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"P11S1FO2cCA\u003d","captcha":"i6Lvk7","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","userid":"TestAutoAdm"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:55:47 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104: Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:47 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:55:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:55:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:55:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:55:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:55:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:55:48 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:55:48 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:49 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:49 - [TEST_STEP][PASSED] - setText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter User Name"), userid): Text 'TestAutoAdm' is set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:50 - [MESSAGE][PASSED] - Text 'TestAutoAdm' is set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter Password"), password): Text ****** has been set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:50 - [TEST_STEP][PASSED] - setText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter Captcha"), captcha): Text 'i6Lvk7' is set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:51 - [MESSAGE][PASSED] - Text 'i6Lvk7' is set on object 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:51 - [TEST_STEP][PASSED] - click(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_submit")): Object: 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/validuserandInvalidpassword/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 20): Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:55:52 - [TEST_STEP][PASSED] - message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage")): Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:55:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:55:52 - [TEST_STEP][PASSED] - comment("Validation Message: " + message): Validation Message: Invalid Credentials
+
+15-09-2026T11:55:52 - [MESSAGE][INFO] - Validation Message: Invalid Credentials
+
+15-09-2026T11:55:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:53 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105" time="5.554" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d","captcha":"i6Lvk8","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","userid":"Testing"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:55:53 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105: Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:53 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:55:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:55:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:55:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:55:53 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:55:53 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:55 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter User Name"), userid): Text 'Testing' is set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:56 - [MESSAGE][PASSED] - Text 'Testing' is set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:55:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Password"), password): Text ****** has been set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Captcha"), captcha): Text 'i6Lvk8' is set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:56 - [MESSAGE][PASSED] - Text 'i6Lvk8' is set on object 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:55:56 - [TEST_STEP][PASSED] - click(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_submit")): Object: 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/invaliduseridandvalidpassword/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:55:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 5): Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:55:58 - [MESSAGE][PASSED] - Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage")): Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:55:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - comment("Validation Message: " + message): Validation Message: Invalid Credentials
+
+15-09-2026T11:55:58 - [MESSAGE][INFO] - Validation Message: Invalid Credentials
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:58 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:55:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107" time="6.104" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Captcha":"i6Lvk10","(Default) Useri...":"","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","(Default) Passw...":""}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:55:58 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107: Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:58 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:55:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:55:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:55:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:55:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:55:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:55:59 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:55:59 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:01 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name")): Text of object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name' is cleared
+
+15-09-2026T11:56:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name' is cleared
+
+15-09-2026T11:56:01 - [TEST_STEP][PASSED] - clearText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password")): Text of object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password' is cleared
+
+15-09-2026T11:56:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password' is cleared
+
+15-09-2026T11:56:01 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha): Text 'i6Lvk10' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:02 - [MESSAGE][PASSED] - Text 'i6Lvk10' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit")): Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - expectedAlert = "Please enter UserName": null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - alertMessage = getAlertText(): Get alert text successfully: 'Please enter UserName'
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Get alert text successfully: 'Please enter UserName'
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - logInfo("Alert Message: " + alertMessage): Alert Message: Please enter UserName
+
+15-09-2026T11:56:04 - [MESSAGE][INFO] - Alert Message: Please enter UserName
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - if (alertMessage.equalsIgnoreCase(expectedAlert)): Validation Passed: Please enter UserName
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - markPassed("Validation Passed: " + alertMessage): Validation Passed: Please enter UserName
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Validation Passed: Please enter UserName
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Alert accepted
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108" time="10.759" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Captcha":"i6Lvk11","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","userid":"Kdd@#ff","Password":"E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:56:04 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108: Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:04 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:56:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:56:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:56:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:56:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:56:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:56:05 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:56:05 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:07 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:07 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name"), userid): Text 'Kdd@#ff' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:07 - [MESSAGE][PASSED] - Text 'Kdd@#ff' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password): Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+15-09-2026T11:56:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+15-09-2026T11:56:13 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha): Text 'i6Lvk11' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:13 - [MESSAGE][PASSED] - Text 'i6Lvk11' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:13 - [TEST_STEP][PASSED] - click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit")): Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 5): Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is visible
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage")): Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:56:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/invalidloginrepository/Page_Agent Management System/p_lblMessage' is: 'Invalid Credentials'
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - comment("Validation Message: " + message): Validation Message: Invalid Credentials
+
+15-09-2026T11:56:15 - [MESSAGE][INFO] - Validation Message: Invalid Credentials
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:15 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202" time="4.47" classname="Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202" status="PASSED">
+         <system-out><![CDATA[15-09-2026T11:56:15 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202: Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:15 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:56:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:56:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:56:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:56:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:56:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:56:16 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:56:16 - [TEST_STEP][PASSED] - navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/"): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:17 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:17 - [TEST_STEP][PASSED] - click(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/a_Forgot Password _")): Object: 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/a_Forgot Password _' is clicked on
+
+15-09-2026T11:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/a_Forgot Password _' is clicked on
+
+15-09-2026T11:56:17 - [TEST_STEP][PASSED] - setText(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_Enter Mobile Number"), "9689997879"): Text '9689997879' is set on object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_Enter Mobile Number'
+
+15-09-2026T11:56:18 - [MESSAGE][PASSED] - Text '9689997879' is set on object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_Enter Mobile Number'
+
+15-09-2026T11:56:18 - [TEST_STEP][PASSED] - click(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_SendOTPBtn")): Object: 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_SendOTPBtn' is clicked on
+
+15-09-2026T11:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_SendOTPBtn' is clicked on
+
+15-09-2026T11:56:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo"), 5): Object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo' is visible
+
+15-09-2026T11:56:19 - [MESSAGE][PASSED] - Object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo' is visible
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - message = getText(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo")): Text of object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo' is: 'Mobile number is not registered'
+
+15-09-2026T11:56:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo' is: 'Mobile number is not registered'
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - comment("Validation Message: " + message): Validation Message: Mobile number is not registered
+
+15-09-2026T11:56:19 - [MESSAGE][INFO] - Validation Message: Mobile number is not registered
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201" time="12.705" classname="Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"MobileNo":"7570877202","Confirmpassword":"Kanchan@#$1234","Newpassword":"Kanchan@#$1234"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:56:20 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201: Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:20 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:56:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:56:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:56:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:56:20 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:56:20 - [TEST_STEP][PASSED] - navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/"): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:22 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:22 - [TEST_STEP][PASSED] - click(findTestObject("Forgot_Password_repository/Page_Agent Management System/a_Forgot Password _")): Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/a_Forgot Password _' is clicked on
+
+15-09-2026T11:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/a_Forgot Password _' is clicked on
+
+15-09-2026T11:56:23 - [TEST_STEP][PASSED] - mobileField = findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number"): null
+
+15-09-2026T11:56:23 - [TEST_STEP][PASSED] - waitForElementVisible(mobileField, 10): Object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number' is visible
+
+15-09-2026T11:56:23 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number' is visible
+
+15-09-2026T11:56:23 - [TEST_STEP][PASSED] - mobile = String.valueOf(MobileNo): null
+
+15-09-2026T11:56:23 - [TEST_STEP][PASSED] - setText(mobileField, mobile): Text '7570877202' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number'
+
+15-09-2026T11:56:24 - [MESSAGE][PASSED] - Text '7570877202' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number'
+
+15-09-2026T11:56:24 - [TEST_STEP][PASSED] - otpBtn = findTestObject("Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn"): null
+
+15-09-2026T11:56:24 - [TEST_STEP][PASSED] - waitForElementClickable(otpBtn, 10): Object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn' is clickable
+
+15-09-2026T11:56:24 - [MESSAGE][PASSED] - Object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn' is clickable
+
+15-09-2026T11:56:24 - [TEST_STEP][PASSED] - click(otpBtn): Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn' is clicked on
+
+15-09-2026T11:56:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn' is clicked on
+
+15-09-2026T11:56:24 - [TEST_STEP][PASSED] - connection = dbconnection.Dbdetails.connectDB(): dbconnection.Dbdetails.connectDB is PASSED
+
+15-09-2026T11:56:25 - [MESSAGE][PASSED] - dbconnection.Dbdetails.connectDB is PASSED
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - query = "select Top 1  otp , * from AgentOTPDetails order by OtpGenerationDate desc": null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - Otp = "": null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - stmt = connection.createStatement(): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - rs = stmt.executeQuery(query): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - if (rs.next()): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - Otp = rs.getString("Otp"): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - logInfo("Fetched OTP from DB : " + Otp): Fetched OTP from DB : 6904
+
+15-09-2026T11:56:25 - [MESSAGE][INFO] - Fetched OTP from DB : 6904
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - if (Otp == null || Otp.isEmpty()): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - otpArray = Otp.toCharArray(): null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - otpObjects = ["Forgot_Password_repository/Page_Agent Management System/input_OtpBox1", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox2", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox3", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox4"]: null
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - for ([i = 0, i < otpObjects.size(), (i++)]): Text '4' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox4'
+
+15-09-2026T11:56:25 - [TEST_STEP][PASSED] - setText(findTestObject(otpObjects[i]), otpArray[i].toString()): Text '6' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox1'
+
+15-09-2026T11:56:26 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox1'
+
+15-09-2026T11:56:26 - [TEST_STEP][PASSED] - setText(findTestObject(otpObjects[i]), otpArray[i].toString()): Text '9' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox2'
+
+15-09-2026T11:56:27 - [MESSAGE][PASSED] - Text '9' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox2'
+
+15-09-2026T11:56:27 - [TEST_STEP][PASSED] - setText(findTestObject(otpObjects[i]), otpArray[i].toString()): Text '0' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox3'
+
+15-09-2026T11:56:28 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox3'
+
+15-09-2026T11:56:28 - [TEST_STEP][PASSED] - setText(findTestObject(otpObjects[i]), otpArray[i].toString()): Text '4' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox4'
+
+15-09-2026T11:56:29 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OtpBox4'
+
+15-09-2026T11:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_OTPValidateBtn")): Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OTPValidateBtn' is clicked on
+
+15-09-2026T11:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_OTPValidateBtn' is clicked on
+
+15-09-2026T11:56:29 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Enter New Password"), Newpassword): Text 'Kanchan@#$1234' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter New Password'
+
+15-09-2026T11:56:30 - [MESSAGE][PASSED] - Text 'Kanchan@#$1234' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Enter New Password'
+
+15-09-2026T11:56:30 - [TEST_STEP][PASSED] - setText(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Confirm New Password"), Confirmpassword): Text 'Kanchan@#$1234' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Confirm New Password'
+
+15-09-2026T11:56:31 - [MESSAGE][PASSED] - Text 'Kanchan@#$1234' is set on object 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_Confirm New Password'
+
+15-09-2026T11:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_ChangePwBtn")): Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_ChangePwBtn' is clicked on
+
+15-09-2026T11:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot_Password_repository/Page_Agent Management System/input_ChangePwBtn' is clicked on
+
+15-09-2026T11:56:31 - [TEST_STEP][PASSED] - msgObj = new com.kms.katalon.core.testobject.TestObject(): null
+
+15-09-2026T11:56:31 - [TEST_STEP][PASSED] - msgObj.addProperty("xpath", EQUALS, "//*[contains(.,'Password has been changed')]"): null
+
+15-09-2026T11:56:31 - [TEST_STEP][PASSED] - waitForElementVisible(msgObj, 10): Object '' is visible
+
+15-09-2026T11:56:32 - [MESSAGE][PASSED] - Object '' is visible
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - message = getText(msgObj): Text of object '' is: 'Congratulation!!
+Your Password has been changed successfully.'
+
+15-09-2026T11:56:32 - [MESSAGE][PASSED] - Text of object '' is: 'Congratulation!!
+Your Password has been changed successfully.'
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - logInfo("Validation Message : " + message): Validation Message : Congratulation!!
+Your Password has been changed successfully.
+
+15-09-2026T11:56:32 - [MESSAGE][INFO] - Validation Message : Congratulation!!
+Your Password has been changed successfully.
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - if (message.contains("Password has been changed")): Forgot Password Test Case PASSED
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - markPassed("Forgot Password Test Case PASSED"): Forgot Password Test Case PASSED
+
+15-09-2026T11:56:32 - [MESSAGE][PASSED] - Forgot Password Test Case PASSED
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - connection.close(): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106" time="4.267" classname="Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Captcha":"i6Lvk9","(Default) Useri...":"","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","Password":"E/nTi+Q24sDkSmJpzmCoHQ\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:56:32 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106: Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:32 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:56:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:56:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:56:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:56:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:56:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:56:33 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:56:33 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:35 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:35 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name"), ""): Text '' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password): Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha): Text 'i6Lvk9' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:36 - [MESSAGE][PASSED] - Text 'i6Lvk9' is set on object 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit")): Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Agentstatusrepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - expectedAlert = "Please enter UserName": null
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - alertMessage = getAlertText(): Get alert text successfully: 'Please enter UserName'
+
+15-09-2026T11:56:36 - [MESSAGE][PASSED] - Get alert text successfully: 'Please enter UserName'
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - logInfo("Alert Message: " + alertMessage): Alert Message: Please enter UserName
+
+15-09-2026T11:56:36 - [MESSAGE][INFO] - Alert Message: Please enter UserName
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - if (alertMessage.equalsIgnoreCase(expectedAlert)): Validation Passed
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - logInfo("Validation Passed"): Validation Passed
+
+15-09-2026T11:56:36 - [MESSAGE][INFO] - Validation Passed
+
+15-09-2026T11:56:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:37 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - if (alertMessage.equalsIgnoreCase(expectedAlert)): Validation Passed - Alert message is correct
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - markPassed("Validation Passed - Alert message is correct"): Validation Passed - Alert message is correct
+
+15-09-2026T11:56:37 - [MESSAGE][PASSED] - Validation Passed - Alert message is correct
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101" time="18.461" classname="Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"password":"ACByQccM9z1v23aWcZKDBQ\u003d\u003d","captcha":"3GkgFr","appUrl":"https://sahibnkmitraqc.banksekure.com/EKYCWeb/","userid":"TestAutoAdm"}]]></property>
+         </properties>
+         <system-out><![CDATA[15-09-2026T11:56:37 - [TEST_CASE][PASSED] - Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101: Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - test = extent.createTest(testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - println("Test Created : " + testCaseContext.getTestCaseId()): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - tcName = testCaseContext.getTestCaseId(): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - if (tcName.contains("Test Cases/Common_Test_case/Login") || tcName.contains("Test Cases/Profile_status")): null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - logInfo("Login Module Detected - Listener Skipped"): Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:37 - [MESSAGE][INFO] - Login Module Detected - Listener Skipped
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - return null: null
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+15-09-2026T11:56:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+15-09-2026T11:56:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+15-09-2026T11:56:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+15-09-2026T11:56:37 - [MESSAGE][PASSED] - Current window maximized
+
+15-09-2026T11:56:37 - [TEST_STEP][PASSED] - navigateToUrl(appUrl): Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:39 - [MESSAGE][PASSED] - Navigate to 'https://sahibnkmitraqc.banksekure.com/EKYCWeb/' successfully
+
+15-09-2026T11:56:39 - [TEST_STEP][PASSED] - messageprint = "": null
+
+15-09-2026T11:56:39 - [TEST_STEP][PASSED] - setText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter User Name"), userid): Text 'TestAutoAdm' is set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:40 - [MESSAGE][PASSED] - Text 'TestAutoAdm' is set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter User Name'
+
+15-09-2026T11:56:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter Password"), password): Text ****** has been set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter Password'
+
+15-09-2026T11:56:40 - [TEST_STEP][PASSED] - setText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter Captcha"), captcha): Text '3GkgFr' is set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:40 - [MESSAGE][PASSED] - Text '3GkgFr' is set on object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_Enter Captcha'
+
+15-09-2026T11:56:40 - [TEST_STEP][PASSED] - click(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_submit")): Object: 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/input_submit' is clicked on
+
+15-09-2026T11:56:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System"), 10): Object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System' is visible
+
+15-09-2026T11:56:43 - [MESSAGE][PASSED] - Object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System' is visible
+
+15-09-2026T11:56:43 - [TEST_STEP][PASSED] - messageprint = getText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System")): Text of object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System' is: 'Agent Management System'
+
+15-09-2026T11:56:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System' is: 'Agent Management System'
+
+15-09-2026T11:56:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+15-09-2026T11:56:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+15-09-2026T11:56:53 - [TEST_STEP][PASSED] - logInfo("Validation Message: " + messageprint): Validation Message: Agent Management System
+
+15-09-2026T11:56:53 - [MESSAGE][INFO] - Validation Message: Agent Management System
+
+15-09-2026T11:56:53 - [TEST_STEP][PASSED] - if (messageprint.contains("Agent Management System") || messageprint.contains("Management System")): Agent Management System page displayed successfully
+
+15-09-2026T11:56:53 - [TEST_STEP][PASSED] - markPassed("Agent Management System page displayed successfully"): Agent Management System page displayed successfully
+
+15-09-2026T11:56:53 - [MESSAGE][PASSED] - Agent Management System page displayed successfully
+
+15-09-2026T11:56:53 - [TEST_STEP][PASSED] - click(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/span_Logout")): Object: 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/span_Logout' is clicked on
+
+15-09-2026T11:56:55 - [MESSAGE][PASSED] - Object: 'Object Repository/SahiBnkmitrarepository/Page_Agent Management System/span_Logout' is clicked on
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:55 - [MESSAGE][PASSED] - Browser is closed
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - if (test == null): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - status = testCaseContext.getTestCaseStatus(): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - if (status == "PASSED"): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - test.pass("Test Case PASSED"): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - println("Test Status : " + status): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+15-09-2026T11:56:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[15-09-2026T11:55:38 - [TEST_STEP][PASSED] - Start listener action : beforeSuite: null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - reportPath = System.getProperty("user.dir") + "/ExtentReports/ExtentReport.html": null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - spark = new com.aventstack.extentreports.reporter.ExtentSparkReporter(reportPath): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - config().setReportName("Automation Report"): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - config().setDocumentTitle("Execution Report"): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - extent = new com.aventstack.extentreports.ExtentReports(): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - extent.attachReporter(spark): null
+
+15-09-2026T11:55:38 - [TEST_STEP][PASSED] - println("Extent Report Initialized"): null
+
+15-09-2026T11:55:38 - [TEST_SUITE][PASSED] - LoginandForgotpassword_Modules: null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - Start listener action : afterSuite: null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - if (extent != null): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - extent.flush(): null
+
+15-09-2026T11:56:55 - [TEST_STEP][PASSED] - println("Extent Report Generated"): null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

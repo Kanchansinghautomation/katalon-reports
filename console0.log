@@ -1,0 +1,383 @@
+2026-09-15 11:55:37.551 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\kanchan.kumari\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\159\0\.cp\resources\logback\logback-execution.xml
+2026-09-15 11:55:37.553 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: F:\SahiBnk Mitra DSB\Include\config\log.properties
+2026-09-15 11:55:38.392 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/LoginandForgotpassword_Modules
+2026-09-15 11:55:38.473 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = KANCHAN SINGH
+2026-09-15 11:55:38.473 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = SahiBnk Mitra DSB
+2026-09-15 11:55:38.474 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = kanchan.kumari - MBSDEVNDA64756T.mplgroup.com
+2026-09-15 11:55:38.474 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-09-15 11:55:38.475 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.6
+2026-09-15 11:55:38.475 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.3.0.0
+Extent Report Initialized
+2026-09-15 11:55:38.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:55:38.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102
+Test Created : Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102
+2026-09-15 11:55:38.829 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:55:38.882 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 1: openBrowser("")
+2026-09-15 11:55:39.202 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:55:39.250 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:55:40.486 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9fb788b4880eaab66d49fd5dc9746485
+2026-09-15 11:55:40.487 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:55:40.487 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:55:40.487 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:55:40.490 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:55:40.513 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 2: maximizeWindow()
+2026-09-15 11:55:40.564 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 3: navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/")
+2026-09-15 11:55:42.169 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 4: versionObj = new com.kms.katalon.core.testobject.TestObject()
+2026-09-15 11:55:42.175 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 5: versionObj.addProperty("xpath", EQUALS, "//p[contains(.,'Version')]")
+2026-09-15 11:55:42.183 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 6: ActualApplicationversion = getText(versionObj)
+2026-09-15 11:55:42.469 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 7: logInfo(" Actual Application version number : " + ActualApplicationversion)
+2026-09-15 11:55:42.470 INFO  com.kms.katalon.core.util.KeywordUtil    -  Actual Application version number : © 2026 Manipal Group.Version 6.3.0 Design by Manipal Technologies Ltd.
+2026-09-15 11:55:42.470 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 8: expectedVersion = "6.3.0"
+2026-09-15 11:55:42.471 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 9: logInfo("Expected Application version number  : " + expectedVersion)
+2026-09-15 11:55:42.472 INFO  com.kms.katalon.core.util.KeywordUtil    - Expected Application version number  : 6.3.0
+2026-09-15 11:55:42.473 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 10: if (ActualApplicationversion.contains(expectedVersion))
+2026-09-15 11:55:42.479 DEBUG t.VL_Verify_ApplicationVersion_TC_102    - 1: markPassed("Version Verification PASSED")
+2026-09-15 11:55:42.480 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Version Verification PASSED
+Test Status : PASSED
+2026-09-15 11:55:42.664 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/ValidLogin/VL_Verify_ApplicationVersion_TC_102
+2026-09-15 11:55:42.692 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:55:42.692 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103
+2026-09-15 11:55:42.701 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:55:42.701 INFO  c.k.katalon.core.main.TestCaseExecutor   - userid = TestAutoAdm
+2026-09-15 11:55:42.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = 
+2026-09-15 11:55:42.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - Captcha = i6Lvk6
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103
+2026-09-15 11:55:42.706 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:55:42.755 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 1: openBrowser("")
+2026-09-15 11:55:42.756 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:55:42.757 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:55:43.485 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 05a3368a8f9b912953f52fafb4d5b710
+2026-09-15 11:55:43.485 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:55:43.486 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:55:43.486 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:55:43.487 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:55:43.507 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 2: maximizeWindow()
+2026-09-15 11:55:43.557 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 3: navigateToUrl(appUrl)
+2026-09-15 11:55:45.283 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 4: setText(findTestObject("invalidloginrepository/Page_Agent Management System/input_Enter User Name"), userid)
+2026-09-15 11:55:45.945 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 5: setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password)
+2026-09-15 11:55:46.271 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 6: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha)
+2026-09-15 11:55:46.859 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 7: click(findTestObject("invalidloginrepository/Page_Agent Management System/input_submit"))
+2026-09-15 11:55:47.163 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 8: waitForAlert(5)
+2026-09-15 11:55:47.184 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 9: alertMessage = getAlertText()
+2026-09-15 11:55:47.199 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 10: comment("Alert Message: " + alertMessage)
+2026-09-15 11:55:47.214 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Alert Message: Please enter Password
+2026-09-15 11:55:47.215 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 11: if (alertMessage.equalsIgnoreCase("Please enter password"))
+2026-09-15 11:55:47.218 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 1: comment("Validation Passed")
+2026-09-15 11:55:47.221 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Validation Passed
+2026-09-15 11:55:47.223 DEBUG t.IL_ValidUsername_BlankPassword_TC_103  - 13: acceptAlert()
+Test Status : PASSED
+2026-09-15 11:55:47.413 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_BlankPassword_TC_103
+2026-09-15 11:55:47.425 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:55:47.425 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104
+2026-09-15 11:55:47.431 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:55:47.431 INFO  c.k.katalon.core.main.TestCaseExecutor   - userid = TestAutoAdm
+2026-09-15 11:55:47.432 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = P11S1FO2cCA=
+2026-09-15 11:55:47.432 INFO  c.k.katalon.core.main.TestCaseExecutor   - captcha = i6Lvk7
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104
+2026-09-15 11:55:47.434 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:55:47.466 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 1: openBrowser("")
+2026-09-15 11:55:47.468 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:55:47.469 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:55:48.154 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7307bf2b6c62c458ec3dfbeaed9cb262
+2026-09-15 11:55:48.154 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:55:48.154 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:55:48.154 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:55:48.155 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:55:48.166 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 2: maximizeWindow()
+2026-09-15 11:55:48.196 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 3: navigateToUrl(appUrl)
+2026-09-15 11:55:49.869 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 4: setText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter User Name"), userid)
+2026-09-15 11:55:50.427 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 5: setEncryptedText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter Password"), password)
+2026-09-15 11:55:50.741 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 6: setText(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_Enter Captcha"), captcha)
+2026-09-15 11:55:51.288 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 7: click(findTestObject("validuserandInvalidpassword/Page_Agent Management System/input_submit"))
+2026-09-15 11:55:52.064 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 8: waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 20)
+2026-09-15 11:55:52.746 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 9: message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"))
+2026-09-15 11:55:52.987 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 10: comment("Validation Message: " + message)
+2026-09-15 11:55:52.988 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Validation Message: Invalid Credentials
+2026-09-15 11:55:52.988 DEBUG .IL_ValidUsername_InvalidPassword_TC_104 - 11: closeBrowser()
+Test Status : PASSED
+2026-09-15 11:55:53.118 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_ValidUsername_InvalidPassword_TC_104
+2026-09-15 11:55:53.134 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:55:53.134 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105
+2026-09-15 11:55:53.139 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:55:53.139 INFO  c.k.katalon.core.main.TestCaseExecutor   - userid = Testing
+2026-09-15 11:55:53.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = E/nTi+Q24sDkSmJpzmCoHQ==
+2026-09-15 11:55:53.140 INFO  c.k.katalon.core.main.TestCaseExecutor   - captcha = i6Lvk8
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105
+2026-09-15 11:55:53.144 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:55:53.175 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 1: openBrowser("")
+2026-09-15 11:55:53.177 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:55:53.180 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:55:53.848 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f25dc41f748e0ace55a92726e8dd2984
+2026-09-15 11:55:53.849 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:55:53.849 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:55:53.849 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:55:53.849 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:55:53.859 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 2: maximizeWindow()
+2026-09-15 11:55:53.897 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 3: navigateToUrl(appUrl)
+2026-09-15 11:55:55.570 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 4: setText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter User Name"), userid)
+2026-09-15 11:55:56.137 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 5: setEncryptedText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Password"), password)
+2026-09-15 11:55:56.433 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 6: setText(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_Enter Captcha"), captcha)
+2026-09-15 11:55:56.988 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 7: click(findTestObject("invaliduseridandvalidpassword/Page_Agent Management System/input_submit"))
+2026-09-15 11:55:57.746 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 8: waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 5)
+2026-09-15 11:55:58.301 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 9: message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"))
+2026-09-15 11:55:58.541 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 10: comment("Validation Message: " + message)
+2026-09-15 11:55:58.543 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Validation Message: Invalid Credentials
+2026-09-15 11:55:58.543 DEBUG .IL_InvalidUsername_ValidPassword_TC_105 - 11: closeBrowser()
+Test Status : PASSED
+2026-09-15 11:55:58.688 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_InvalidUsername_ValidPassword_TC_105
+2026-09-15 11:55:58.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:55:58.696 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107
+2026-09-15 11:55:58.702 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:55:58.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Userid = 
+2026-09-15 11:55:58.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Password = 
+2026-09-15 11:55:58.703 INFO  c.k.katalon.core.main.TestCaseExecutor   - Captcha = i6Lvk10
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107
+2026-09-15 11:55:58.705 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:55:58.733 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 1: openBrowser("")
+2026-09-15 11:55:58.734 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:55:58.735 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:55:59.433 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 59ae53f28c2b2083362a7c753bca719d
+2026-09-15 11:55:59.435 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:55:59.435 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:55:59.436 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:55:59.437 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:55:59.447 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 2: maximizeWindow()
+2026-09-15 11:55:59.484 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 3: navigateToUrl(appUrl)
+2026-09-15 11:56:01.245 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 4: clearText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name"))
+2026-09-15 11:56:01.516 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 5: clearText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"))
+2026-09-15 11:56:01.751 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 6: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha)
+2026-09-15 11:56:02.309 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 7: delay(2)
+2026-09-15 11:56:04.318 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 8: click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit"))
+2026-09-15 11:56:04.621 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 9: expectedAlert = "Please enter UserName"
+2026-09-15 11:56:04.622 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 10: alertMessage = getAlertText()
+2026-09-15 11:56:04.634 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 11: logInfo("Alert Message: " + alertMessage)
+2026-09-15 11:56:04.635 INFO  com.kms.katalon.core.util.KeywordUtil    - Alert Message: Please enter UserName
+2026-09-15 11:56:04.636 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 12: if (alertMessage.equalsIgnoreCase(expectedAlert))
+2026-09-15 11:56:04.637 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 1: markPassed("Validation Passed: " + alertMessage)
+2026-09-15 11:56:04.637 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Validation Passed: Please enter UserName
+2026-09-15 11:56:04.638 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 14: acceptAlert()
+2026-09-15 11:56:04.647 DEBUG t.IL_BlankUsername_BlankPassword_TC_107  - 15: closeBrowser()
+Test Status : PASSED
+2026-09-15 11:56:04.800 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_BlankPassword_TC_107
+2026-09-15 11:56:04.811 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:04.811 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108
+2026-09-15 11:56:04.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:56:04.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - userid = Kdd@#ff
+2026-09-15 11:56:04.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = E/nTi+Q24sDkSmJpzmCoHQ==
+2026-09-15 11:56:04.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - Captcha = i6Lvk11
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108
+2026-09-15 11:56:04.816 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:56:04.851 DEBUG alCharacterUsername_ValidPassword_TC_108 - 1: openBrowser("")
+2026-09-15 11:56:04.852 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:56:04.852 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:56:05.530 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ca01c50ea6762c6cc48bb83e0686a3a7
+2026-09-15 11:56:05.531 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:56:05.531 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:56:05.531 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:56:05.532 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:56:05.552 DEBUG alCharacterUsername_ValidPassword_TC_108 - 2: maximizeWindow()
+2026-09-15 11:56:05.583 DEBUG alCharacterUsername_ValidPassword_TC_108 - 3: navigateToUrl(appUrl)
+2026-09-15 11:56:07.303 DEBUG alCharacterUsername_ValidPassword_TC_108 - 4: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name"), userid)
+2026-09-15 11:56:07.871 DEBUG alCharacterUsername_ValidPassword_TC_108 - 5: setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password)
+2026-09-15 11:56:08.164 DEBUG alCharacterUsername_ValidPassword_TC_108 - 6: delay(5)
+2026-09-15 11:56:13.174 DEBUG alCharacterUsername_ValidPassword_TC_108 - 7: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha)
+2026-09-15 11:56:13.709 DEBUG alCharacterUsername_ValidPassword_TC_108 - 8: click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit"))
+2026-09-15 11:56:14.022 DEBUG alCharacterUsername_ValidPassword_TC_108 - 9: waitForElementVisible(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"), 5)
+2026-09-15 11:56:15.170 DEBUG alCharacterUsername_ValidPassword_TC_108 - 10: message = getText(findTestObject("invalidloginrepository/Page_Agent Management System/p_lblMessage"))
+2026-09-15 11:56:15.409 DEBUG alCharacterUsername_ValidPassword_TC_108 - 11: comment("Validation Message: " + message)
+2026-09-15 11:56:15.410 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Validation Message: Invalid Credentials
+2026-09-15 11:56:15.411 DEBUG alCharacterUsername_ValidPassword_TC_108 - 12: closeBrowser()
+Test Status : PASSED
+2026-09-15 11:56:15.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_SpecialCharacterUsername_ValidPassword_TC_108
+2026-09-15 11:56:15.571 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:15.571 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202
+Test Created : Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202
+2026-09-15 11:56:15.578 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:56:15.598 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 1: openBrowser("")
+2026-09-15 11:56:15.598 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:56:15.599 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:56:16.285 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9f29cf90e2a2ccc57b76be614a7e65b5
+2026-09-15 11:56:16.285 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:56:16.285 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:56:16.285 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:56:16.285 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:56:16.298 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 2: maximizeWindow()
+2026-09-15 11:56:16.339 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 3: navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/")
+2026-09-15 11:56:17.337 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 4: click(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/a_Forgot Password _"))
+2026-09-15 11:56:17.864 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 5: setText(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_Enter Mobile Number"), "9689997879")
+2026-09-15 11:56:18.627 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 6: click(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/input_SendOTPBtn"))
+2026-09-15 11:56:18.971 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 7: waitForElementVisible(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo"), 5)
+2026-09-15 11:56:19.637 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 8: message = getText(findTestObject("Forgotpasswordwithoutregisteredmono/Page_Agent Management System/p_error_MobileNo"))
+2026-09-15 11:56:19.886 DEBUG t.FP_UnregisteredMobileNo_TC_202         - 9: comment("Validation Message: " + message)
+2026-09-15 11:56:19.888 INFO  c.k.k.c.keyword.builtin.CommentKeyword   - Validation Message: Mobile number is not registered
+Test Status : PASSED
+2026-09-15 11:56:20.041 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/Forgotpassword/FP_UnregisteredMobileNo_TC_202
+2026-09-15 11:56:20.055 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:20.055 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:20.070 INFO  c.k.katalon.core.main.TestCaseExecutor   - MobileNo = 7570877202
+2026-09-15 11:56:20.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - Newpassword = Kanchan@#$1234
+2026-09-15 11:56:20.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - Confirmpassword = Kanchan@#$1234
+Test Created : Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:20.075 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:56:20.144 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: openBrowser("")
+2026-09-15 11:56:20.145 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:56:20.145 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:56:20.814 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f886fd21852a4567192a110713617859
+2026-09-15 11:56:20.814 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:56:20.814 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:56:20.814 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:56:20.815 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:56:20.821 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 2: maximizeWindow()
+2026-09-15 11:56:20.860 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 3: navigateToUrl("https://sahibnkmitraqc.banksekure.com/EKYCWeb/")
+2026-09-15 11:56:22.644 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 4: click(findTestObject("Forgot_Password_repository/Page_Agent Management System/a_Forgot Password _"))
+2026-09-15 11:56:23.152 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 5: mobileField = findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Enter Mobile Number")
+2026-09-15 11:56:23.153 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 6: waitForElementVisible(mobileField, 10)
+2026-09-15 11:56:23.609 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 7: mobile = String.valueOf(MobileNo)
+2026-09-15 11:56:23.610 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 8: setText(mobileField, mobile)
+2026-09-15 11:56:24.151 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 9: otpBtn = findTestObject("Forgot_Password_repository/Page_Agent Management System/input_SendOTPBtn")
+2026-09-15 11:56:24.152 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 10: waitForElementClickable(otpBtn, 10)
+2026-09-15 11:56:24.471 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 11: click(otpBtn)
+2026-09-15 11:56:24.748 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 12: connection = dbconnection.Dbdetails.connectDB()
+2026-09-15 11:56:25.516 INFO  k.k.c.m.CustomKeywordDelegatingMetaClass - dbconnection.Dbdetails.connectDB is PASSED
+2026-09-15 11:56:25.517 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 13: query = "select Top 1  otp , * from AgentOTPDetails order by OtpGenerationDate desc"
+2026-09-15 11:56:25.518 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 14: Otp = ""
+2026-09-15 11:56:25.519 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 15: stmt = connection.createStatement()
+2026-09-15 11:56:25.551 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 16: rs = stmt.executeQuery(query)
+2026-09-15 11:56:25.692 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 17: if (rs.next())
+2026-09-15 11:56:25.705 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: Otp = rs.getString("Otp")
+2026-09-15 11:56:25.716 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 18: logInfo("Fetched OTP from DB : " + Otp)
+2026-09-15 11:56:25.716 INFO  com.kms.katalon.core.util.KeywordUtil    - Fetched OTP from DB : 6904
+2026-09-15 11:56:25.718 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 19: if (Otp == null || Otp.isEmpty())
+2026-09-15 11:56:25.718 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 20: otpArray = Otp.toCharArray()
+2026-09-15 11:56:25.719 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 21: otpObjects = ["Forgot_Password_repository/Page_Agent Management System/input_OtpBox1", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox2", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox3", "Forgot_Password_repository/Page_Agent Management System/input_OtpBox4"]
+2026-09-15 11:56:25.719 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 22: for ([i = 0, i < otpObjects.size(), (i++)])
+2026-09-15 11:56:25.720 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: setText(findTestObject(otpObjects[i]), otpArray[i].toString())
+2026-09-15 11:56:26.572 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: setText(findTestObject(otpObjects[i]), otpArray[i].toString())
+2026-09-15 11:56:27.413 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: setText(findTestObject(otpObjects[i]), otpArray[i].toString())
+2026-09-15 11:56:28.249 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: setText(findTestObject(otpObjects[i]), otpArray[i].toString())
+2026-09-15 11:56:29.177 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 23: click(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_OTPValidateBtn"))
+2026-09-15 11:56:29.471 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 24: setText(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Enter New Password"), Newpassword)
+2026-09-15 11:56:30.684 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 25: setText(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_Confirm New Password"), Confirmpassword)
+2026-09-15 11:56:31.216 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 26: click(findTestObject("Forgot_Password_repository/Page_Agent Management System/input_ChangePwBtn"))
+2026-09-15 11:56:31.495 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 27: msgObj = new com.kms.katalon.core.testobject.TestObject()
+2026-09-15 11:56:31.496 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 28: msgObj.addProperty("xpath", EQUALS, "//*[contains(.,'Password has been changed')]")
+2026-09-15 11:56:31.496 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 29: waitForElementVisible(msgObj, 10)
+2026-09-15 11:56:32.370 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 30: message = getText(msgObj)
+2026-09-15 11:56:32.610 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 31: logInfo("Validation Message : " + message)
+2026-09-15 11:56:32.610 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Message : Congratulation!!\nYour Password has been changed successfully.
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 32: if (message.contains("Password has been changed"))
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: markPassed("Forgot Password Test Case PASSED")
+2026-09-15 11:56:32.611 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Forgot Password Test Case PASSED
+2026-09-15 11:56:32.612 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 34: connection.close()
+Test Status : PASSED
+2026-09-15 11:56:32.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:32.370 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 30: message = getText(msgObj)
+2026-09-15 11:56:32.610 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 31: logInfo("Validation Message : " + message)
+2026-09-15 11:56:32.610 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Message : Congratulation!!\nYour Password has been changed successfully.
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 32: if (message.contains("Password has been changed"))
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: markPassed("Forgot Password Test Case PASSED")
+2026-09-15 11:56:32.611 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Forgot Password Test Case PASSED
+2026-09-15 11:56:32.612 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 34: connection.close()
+Test Status : PASSED
+2026-09-15 11:56:32.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:32.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:56:32.370 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 30: message = getText(msgObj)
+2026-09-15 11:56:32.610 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 31: logInfo("Validation Message : " + message)
+2026-09-15 11:56:32.610 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Message : Congratulation!!\nYour Password has been changed successfully.
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 32: if (message.contains("Password has been changed"))
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: markPassed("Forgot Password Test Case PASSED")
+2026-09-15 11:56:32.611 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Forgot Password Test Case PASSED
+2026-09-15 11:56:32.612 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 34: connection.close()
+Test Status : PASSED
+2026-09-15 11:56:32.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:32.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:56:32.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Userid = 
+2026-09-15 11:56:32.370 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 30: message = getText(msgObj)
+2026-09-15 11:56:32.610 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 31: logInfo("Validation Message : " + message)
+2026-09-15 11:56:32.610 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Message : Congratulation!!\nYour Password has been changed successfully.
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 32: if (message.contains("Password has been changed"))
+2026-09-15 11:56:32.611 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 1: markPassed("Forgot Password Test Case PASSED")
+2026-09-15 11:56:32.611 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Forgot Password Test Case PASSED
+2026-09-15 11:56:32.612 DEBUG t.FP_ValidRegisteredMobileNo_TC_201      - 34: connection.close()
+Test Status : PASSED
+2026-09-15 11:56:32.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/Forgotpassword/FP_ValidRegisteredMobileNo_TC_201
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:32.768 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:32.773 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:56:32.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Userid = 
+2026-09-15 11:56:32.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = E/nTi+Q24sDkSmJpzmCoHQ==
+2026-09-15 11:56:32.774 INFO  c.k.katalon.core.main.TestCaseExecutor   - Captcha = i6Lvk9
+Test Created : Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:32.776 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:56:32.810 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 1: openBrowser("")
+2026-09-15 11:56:32.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:56:32.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:56:33.469 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c440e0b36922e3f8c7b13304c9a1c1ff
+2026-09-15 11:56:33.470 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:56:33.470 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:56:33.470 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:56:33.470 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:56:33.478 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 2: maximizeWindow()
+2026-09-15 11:56:33.514 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 3: navigateToUrl(appUrl)
+2026-09-15 11:56:35.219 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 4: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter User Name"), "")
+2026-09-15 11:56:35.758 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 5: setEncryptedText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Password"), Password)
+2026-09-15 11:56:36.044 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 6: setText(findTestObject("Agentstatusrepository/Page_Agent Management System/input_Enter Captcha"), Captcha)
+2026-09-15 11:56:36.601 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 7: click(findTestObject("Agentstatusrepository/Page_Agent Management System/input_submit"))
+2026-09-15 11:56:36.893 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 8: expectedAlert = "Please enter UserName"
+2026-09-15 11:56:36.894 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 9: alertMessage = getAlertText()
+2026-09-15 11:56:36.912 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 10: logInfo("Alert Message: " + alertMessage)
+2026-09-15 11:56:36.913 INFO  com.kms.katalon.core.util.KeywordUtil    - Alert Message: Please enter UserName
+2026-09-15 11:56:36.913 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 11: if (alertMessage.equalsIgnoreCase(expectedAlert))
+2026-09-15 11:56:36.914 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 1: logInfo("Validation Passed")
+2026-09-15 11:56:36.914 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Passed
+2026-09-15 11:56:36.915 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 13: closeBrowser()
+2026-09-15 11:56:37.031 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 14: if (alertMessage.equalsIgnoreCase(expectedAlert))
+2026-09-15 11:56:37.031 DEBUG t.IL_BlankUsername_ValidPassword_TC_106  - 1: markPassed("Validation Passed - Alert message is correct")
+2026-09-15 11:56:37.032 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Validation Passed - Alert message is correct
+Test Status : PASSED
+2026-09-15 11:56:37.035 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/InvalidLogin/IL_BlankUsername_ValidPassword_TC_106
+2026-09-15 11:56:37.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-09-15 11:56:37.045 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101
+2026-09-15 11:56:37.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - appUrl = https://sahibnkmitraqc.banksekure.com/EKYCWeb/
+2026-09-15 11:56:37.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - userid = TestAutoAdm
+2026-09-15 11:56:37.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - password = ACByQccM9z1v23aWcZKDBQ==
+2026-09-15 11:56:37.048 INFO  c.k.katalon.core.main.TestCaseExecutor   - captcha = 3GkgFr
+Test Created : Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101
+2026-09-15 11:56:37.049 INFO  com.kms.katalon.core.util.KeywordUtil    - Login Module Detected - Listener Skipped
+2026-09-15 11:56:37.080 DEBUG testcase.VL_Login_TC_101                 - 1: openBrowser("")
+2026-09-15 11:56:37.081 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-09-15 11:56:37.081 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-09-15 11:56:37.751 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = cc83e0e86c557cf643f20b5a1bca1c14
+2026-09-15 11:56:37.752 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 152.0.7977.84
+2026-09-15 11:56:37.752 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-09-15 11:56:37.753 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-09-15 11:56:37.753 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-09-15 11:56:37.760 DEBUG testcase.VL_Login_TC_101                 - 2: maximizeWindow()
+2026-09-15 11:56:37.797 DEBUG testcase.VL_Login_TC_101                 - 3: navigateToUrl(appUrl)
+2026-09-15 11:56:39.609 DEBUG testcase.VL_Login_TC_101                 - 4: messageprint = ""
+2026-09-15 11:56:39.609 DEBUG testcase.VL_Login_TC_101                 - 5: setText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter User Name"), userid)
+2026-09-15 11:56:40.146 DEBUG testcase.VL_Login_TC_101                 - 6: setEncryptedText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter Password"), password)
+2026-09-15 11:56:40.439 DEBUG testcase.VL_Login_TC_101                 - 7: setText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_Enter Captcha"), captcha)
+2026-09-15 11:56:40.995 DEBUG testcase.VL_Login_TC_101                 - 8: click(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/input_submit"))
+2026-09-15 11:56:43.266 DEBUG testcase.VL_Login_TC_101                 - 9: waitForElementVisible(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System"), 10)
+2026-09-15 11:56:43.707 DEBUG testcase.VL_Login_TC_101                 - 10: messageprint = getText(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/b_Agent Management System"))
+2026-09-15 11:56:43.948 DEBUG testcase.VL_Login_TC_101                 - 11: delay(10)
+2026-09-15 11:56:53.957 DEBUG testcase.VL_Login_TC_101                 - 12: logInfo("Validation Message: " + messageprint)
+2026-09-15 11:56:53.957 INFO  com.kms.katalon.core.util.KeywordUtil    - Validation Message: Agent Management System
+2026-09-15 11:56:53.957 DEBUG testcase.VL_Login_TC_101                 - 13: if (messageprint.contains("Agent Management System") || messageprint.contains("Management System"))
+2026-09-15 11:56:53.957 DEBUG testcase.VL_Login_TC_101                 - 1: markPassed("Agent Management System page displayed successfully")
+2026-09-15 11:56:53.957 DEBUG com.kms.katalon.core.util.KeywordUtil    - ✓ Agent Management System page displayed successfully
+2026-09-15 11:56:53.958 DEBUG testcase.VL_Login_TC_101                 - 15: click(findTestObject("SahiBnkmitrarepository/Page_Agent Management System/span_Logout"))
+2026-09-15 11:56:55.348 DEBUG testcase.VL_Login_TC_101                 - 16: closeBrowser()
+Test Status : PASSED
+2026-09-15 11:56:55.505 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Common_Test_case/Login/ValidLogin/VL_Login_TC_101
+Extent Report Generated
+2026-09-15 11:56:55.702 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-09-15 11:56:55.702 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/LoginandForgotpassword_Modules
+2026-09-15 11:56:55.702 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
